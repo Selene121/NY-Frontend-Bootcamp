@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Form</h1>
+
+  <form>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="name" required placeholder="Please type your name">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" required placeholder="Please type your email">
+    </div>
+    <br><br>
+
+    <div>
+      <label for="message">Message:</label>
+      <br>
+      <textarea name="message" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+      <label for="subject">Subject:</label>
+      <input type="subject" name="subject" required placeholder="Please type the subject">
+    </div>
+
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="number" name="phone">
+    </div>
+
+    <div>
+      <label for="priority">Priority:</label> 
+      <input type="radio" name="priority" value="low">
+      <label for="low">Low</label>
+      <input type="radio" name="priority" value="medium">
+      <label for="medium">Medium</label>
+      <input type="radio" name="priority" value="high">
+      <label for="high">High</label>
+        
+      <!-- low, medium, high -->
+    </div>
+
+    <div>
+      <label>Newsletter Subscription:</label>
+      <br>
+      <textarea name="Newsletter Subscription" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+      <label>Gender:</label>
+      <input type="radio" name="Gender" value="F>
+      <label for="F">F</label>
+      <input type="radio" name="Gender" value="M">
+      <label for="M">M</label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+
