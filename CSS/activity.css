@@ -1,0 +1,23 @@
+.center-align {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(214, 15, 15, 0.9);
+}
+
+.letter-spacing {
+    letter-spacing: 10px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
